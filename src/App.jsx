@@ -12,6 +12,7 @@ const App = () => {
         <Hero />
         <ProblemSolution />
         <Footer />
+       
       </main>
     </>
   );

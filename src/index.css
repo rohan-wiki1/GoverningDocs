@@ -31,7 +31,7 @@
     background: linear-gradient(180deg, #00d2ff 0%, #059dbe 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+  }
 
   .footer-border-gradient {
     border-image-source: linear-gradient(180deg, #00d2ff 0%, #059dbe 100%);

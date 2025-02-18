@@ -8,8 +8,13 @@ const ProblemSolution = () => {
         <Container>
           <ProblemSolutionHeader />
 
-          <div className=""></div>
-
+          <div className="">
+            <div className="w-[275px] h-[349px] rounded-2xl p-5 space-y-5">
+              <div>
+                <img src="/problem.svg" alt="" />
+              </div>
+            </div>
+          </div>
         </Container>
       </section>
     </>
