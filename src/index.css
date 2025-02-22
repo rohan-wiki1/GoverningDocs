@@ -1,0 +1,40 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Italiana&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Space+Grotesk:wght@300..700&display=swap");
+
+/* font awesome */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+
+/* tailwindcss */
+@import "tailwindcss";
+
+@theme {
+  /* font list */
+  --font-primary: "Space Grotesk", serif;
+  --font-secondary: "Nunito Sans", sans-serif;
+
+  /* color list */
+  --color-primary: #00d2ff;
+  --color-secondary: #2d2d2d;
+  --color-tertiary: #666666;
+  /* shadow */
+  --shadow-primary: 0px 4px 15px 0px #0000001a;
+}
+
+@layer utilities {
+  .gradient-primary {
+    background: linear-gradient(180deg, #00d2ff 0%, #059dbe 100%);
+  }
+  .gradient-secondary {
+    background: linear-gradient(161.45deg, #00d2ff -5.54%, #9aedff 59.11%);
+  }
+  .text-gradient {
+    background: linear-gradient(180deg, #00d2ff 0%, #059dbe 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+  .footer-border-gradient {
+    border-image-source: linear-gradient(180deg, #00d2ff 0%, #059dbe 100%);
+    border-image-slice: 1;
+  }
+}
